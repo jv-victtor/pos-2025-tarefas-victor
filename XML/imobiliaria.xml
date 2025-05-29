@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE imobiliaria [
+    <!ELEMENT imobiliaria (imovel+)>
+
+    <!ELEMENT imovel (descricao, proprietario, endereco, caracteristicas, valor)>
+
+    <!ELEMENT descricao (#PCDATA)>
+
+    <!ELEMENT proprietario (nome, (email | telefone)+)>
+    <!ELEMENT nome (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT telefone (#PCDATA)>
+
+    <!ELEMENT endereco (rua, bairro, cidade, numero?)>
+    <!ELEMENT rua (#PCDATA)>
+    <!ELEMENT bairro (#PCDATA)>
+    <!ELEMENT cidade (#PCDATA)>
+    <!ELEMENT numero (#PCDATA)>
+
+    <!ELEMENT caracteristicas (tamanho, numQuartos, numBanheiros)>
+    <!ELEMENT tamanho (#PCDATA)>
+    <!ELEMENT numQuartos (#PCDATA)>
+    <!ELEMENT numBanheiros (#PCDATA)>
+
+    <!ELEMENT valor (#PCDATA)>
+]>
+<imobiliaria>
+    <imovel>
+        <descricao>Casa com quintal grande</descricao>
+        <proprietario>
+            <nome>João Silva</nome>
+            <telefone>84999990000</telefone>
+            <telefone>84988887777</telefone>
+            <email>joao@email.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Flores</rua>
+            <bairro>Centro</bairro>
+            <cidade>Boa Saúde</cidade>
+            <numero>123</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>200m²</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>350000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Apartamento com vista para o mar</descricao>
+        <proprietario>
+            <nome>Maria Oliveira</nome>
+            <telefone>84977776666</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Av. Beira Mar</rua>
+            <bairro>Praia</bairro>
+            <cidade>Natal</cidade>
+            <numero>456</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>90m²</tamanho>
+            <numQuartos>2</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>480000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Sítio arborizado ideal para descanso</descricao>
+        <proprietario>
+            <nome>Pedro Lima</nome>
+            <email>pedro.lima@sitio.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Estrada do Campo</rua>
+            <bairro>Zona Rural</bairro>
+            <cidade>Monte Alegre</cidade>
+            <numero>789</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>1000m²</tamanho>
+            <numQuartos>4</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>600000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Casa simples, ideal para casal</descricao>
+        <proprietario>
+            <nome>Rosa Fernandes</nome>
+            <telefone>84966665555</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Palmeiras</rua>
+            <bairro>Nova Esperança</bairro>
+            <cidade>Parnamirim</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>65m²</tamanho>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>120000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Casa com garagem e piscina</descricao>
+        <proprietario>
+            <nome>Carlos Mendes</nome>
+            <telefone>84955554444</telefone>
+            <email>carlosm@gmail.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Rua do Lazer</rua>
+            <bairro>Alto da Alegria</bairro>
+            <cidade>São José de Mipibu</cidade>
+            <numero>321</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>300m²</tamanho>
+            <numQuartos>5</numQuartos>
+            <numBanheiros>3</numBanheiros>
+        </caracteristicas>
+        <valor>750000</valor>
+    </imovel>
+</imobiliaria>

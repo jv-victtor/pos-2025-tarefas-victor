@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE quiz [
+    <!ELEMENT quiz (disciplina, professor, turma, data, questões)>
+        <!ATTLIST quiz versao CDATA #REQUIRED>
+    <!ELEMENT disciplina (#PCDATA)>
+    <!ELEMENT professor (nome, matrícula?)>
+        <!ELEMENT nome (#PCDATA)>
+        <!ELEMENT matrícula (#PCDATA)>
+    <!ELEMENT turma (#PCDATA)>
+    <!ELEMENT data (#PCDATA)>
+    <!ELEMENT questões (questão+)>
+        <!ELEMENT questão (enunciado, pontuação, alternativas)>
+            <!ELEMENT enunciado (#PCDATA)>
+            <!ELEMENT pontuação (#PCDATA)>
+            <!ELEMENT alternativas (alternativa+)>
+                <!ELEMENT alternativa (#PCDATA)>
+                <!ATTLIST alternativa correta (sim|nao) #REQUIRED>
+]>
+<quiz versao="1.0">
+    <disciplina>Programação para Internet</disciplina>
+    <professor>
+        <nome>Rosi Ananias</nome>
+        <matrícula>123456</matrícula>
+    </professor>
+    <turma>3º Ano - Informática</turma>
+    <data>2025-05-29</data>
+    <questões>
+        <questão>
+            <enunciado>Qual é a linguagem usada para estruturar páginas web?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">Python</alternativa>
+                <alternativa correta="nao">Java</alternativa>
+                <alternativa correta="sim">HTML</alternativa>
+                <alternativa correta="nao">C++</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>O que significa a sigla CSS?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">Central Style Script</alternativa>
+                <alternativa correta="sim">Cascading Style Sheets</alternativa>
+                <alternativa correta="nao">Computer Styled Syntax</alternativa>
+                <alternativa correta="nao">Creative Sheet System</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Qual das linguagens abaixo é usada para programar o comportamento de páginas web?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">HTML</alternativa>
+                <alternativa correta="nao">CSS</alternativa>
+                <alternativa correta="sim">JavaScript</alternativa>
+                <alternativa correta="nao">SQL</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Qual elemento HTML é usado para criar links?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="sim">&lt;a&gt;</alternativa>
+                <alternativa correta="nao">&lt;div&gt;</alternativa>
+                <alternativa correta="nao">&lt;link&gt;</alternativa>
+                <alternativa correta="nao">&lt;span&gt;</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Qual das opções é uma biblioteca JavaScript?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">Django</alternativa>
+                <alternativa correta="nao">Flask</alternativa>
+                <alternativa correta="sim">React</alternativa>
+                <alternativa correta="nao">Laravel</alternativa>
+            </alternativas>
+        </questão>
+    </questões>
+</quiz>

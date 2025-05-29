@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cardapio SYSTEM "definicoes.dtd">
 <cardapio>
-    <item id="1">
+    <item id="Prato_1">
         <nome>Filé Mignon ao Molho Madeira</nome>
         <descricao>Filé mignon grelhado com molho madeira, acompanhado de arroz branco e batatas souté.</descricao>
         <ingredientes>Filé mignon, vinho madeira, cebola, manteiga, arroz, batata, sal, pimenta</ingredientes>
@@ -8,7 +9,7 @@
         <calorias>750</calorias>
         <tempo_preparo>35</tempo_preparo>
     </item>
-    <item id="2">
+    <item id="Prato_2">
         <nome>Risoto de Camarão</nome>
         <descricao>Risoto cremoso com camarões salteados, toque de limão siciliano e parmesão.</descricao>
         <ingredientes>Arroz arbório, camarão, limão siciliano, parmesão, vinho branco, creme de leite</ingredientes>
@@ -16,7 +17,7 @@
         <calorias>680</calorias>
         <tempo_preparo>30</tempo_preparo>
     </item>
-    <item id="3">
+    <item id="Prato_3">
         <nome>Pizza Margherita</nome>
         <descricao>Clássica pizza italiana com molho de tomate, muçarela de búfala e manjericão fresco.</descricao>
         <ingredientes>Farinha, fermento, água, molho de tomate, muçarela de búfala, manjericão</ingredientes>
@@ -24,7 +25,7 @@
         <calorias>890</calorias>
         <tempo_preparo>25</tempo_preparo>
     </item>
-    <item id="4">
+    <item id="Prato_4">
         <nome>Salada Caesar</nome>
         <descricao>Salada com alface romana, frango grelhado, croutons, parmesão e molho Caesar.</descricao>
         <ingredientes>Alface romana, frango, croutons, parmesão, molho caesar</ingredientes>
@@ -32,7 +33,7 @@
         <calorias>420</calorias>
         <tempo_preparo>15</tempo_preparo>
     </item>
-    <item id="5">
+    <item id="Prato_5">
         <nome>Spaghetti à Carbonara</nome>
         <descricao>Espaguete ao molho carbonara com pancetta crocante e queijo pecorino.</descricao>
         <ingredientes>Espaguete, ovos, pancetta, queijo pecorino, pimenta-do-reino</ingredientes>
