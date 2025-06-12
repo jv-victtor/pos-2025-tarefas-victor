@@ -1,0 +1,102 @@
+{
+  "imobiliaria": {
+    "imoveis": [
+      {
+        "descricao": "Casa com quintal grande",
+        "proprietario": {
+          "nome": "João Silva",
+          "telefones": ["84999990000", "84988887777"],
+          "emails": ["joao@email.com"]
+        },
+        "endereco": {
+          "rua": "Rua das Flores",
+          "bairro": "Centro",
+          "cidade": "Boa Saúde",
+          "numero": "123"
+        },
+        "caracteristicas": {
+          "tamanho": "200m²",
+          "numQuartos": 3,
+          "numBanheiros": 2
+        },
+        "valor": 350000
+      },
+      {
+        "descricao": "Apartamento com vista para o mar",
+        "proprietario": {
+          "nome": "Maria Oliveira",
+          "telefones": ["84977776666"]
+        },
+        "endereco": {
+          "rua": "Av. Beira Mar",
+          "bairro": "Praia",
+          "cidade": "Natal",
+          "numero": "456"
+        },
+        "caracteristicas": {
+          "tamanho": "90m²",
+          "numQuartos": 2,
+          "numBanheiros": 1
+        },
+        "valor": 480000
+      },
+      {
+        "descricao": "Sítio arborizado ideal para descanso",
+        "proprietario": {
+          "nome": "Pedro Lima",
+          "emails": ["pedro.lima@sitio.com"]
+        },
+        "endereco": {
+          "rua": "Estrada do Campo",
+          "bairro": "Zona Rural",
+          "cidade": "Monte Alegre",
+          "numero": "789"
+        },
+        "caracteristicas": {
+          "tamanho": "1000m²",
+          "numQuartos": 4,
+          "numBanheiros": 2
+        },
+        "valor": 600000
+      },
+      {
+        "descricao": "Casa simples, ideal para casal",
+        "proprietario": {
+          "nome": "Rosa Fernandes",
+          "telefones": ["84966665555"]
+        },
+        "endereco": {
+          "rua": "Rua das Palmeiras",
+          "bairro": "Nova Esperança",
+          "cidade": "Parnamirim"
+        },
+        "caracteristicas": {
+          "tamanho": "65m²",
+          "numQuartos": 1,
+          "numBanheiros": 1
+        },
+        "valor": 120000
+      },
+      {
+        "descricao": "Casa com garagem e piscina",
+        "proprietario": {
+          "nome": "Carlos Mendes",
+          "telefones": ["84955554444"],
+          "emails": ["carlosm@gmail.com"]
+        },
+        "endereco": {
+          "rua": "Rua do Lazer",
+          "bairro": "Alto da Alegria",
+          "cidade": "São José de Mipibu",
+          "numero": "321"
+        },
+        "caracteristicas": {
+          "tamanho": "300m²",
+          "numQuartos": 5,
+          "numBanheiros": 3
+        },
+        "valor": 750000
+      }
+    ]
+  }
+}

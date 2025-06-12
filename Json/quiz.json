@@ -1,0 +1,64 @@
+{
+    "quiz": {
+      "versao": "1.0",
+      "disciplina": "Programação para Internet",
+      "professor": {
+        "nome": "Rosi Ananias",
+        "matricula": "123456"
+      },
+      "turma": "3º Ano - Informática",
+      "data": "2025-05-29",
+      "questoes": [
+        {
+          "enunciado": "Qual é a linguagem usada para estruturar páginas web?",
+          "pontuacao": 1,
+          "alternativas": [
+            { "texto": "Python", "correta": "nao" },
+            { "texto": "Java", "correta": "nao" },
+            { "texto": "HTML", "correta": "sim" },
+            { "texto": "C++", "correta": "nao" }
+          ]
+        },
+        {
+          "enunciado": "O que significa a sigla CSS?",
+          "pontuacao": 1,
+          "alternativas": [
+            { "texto": "Central Style Script", "correta": "nao" },
+            { "texto": "Cascading Style Sheets", "correta": "sim" },
+            { "texto": "Computer Styled Syntax", "correta": "nao" },
+            { "texto": "Creative Sheet System", "correta": "nao" }
+          ]
+        },
+        {
+          "enunciado": "Qual das linguagens abaixo é usada para programar o comportamento de páginas web?",
+          "pontuacao": 1,
+          "alternativas": [
+            { "texto": "HTML", "correta": "nao" },
+            { "texto": "CSS", "correta": "nao" },
+            { "texto": "JavaScript", "correta": "sim" },
+            { "texto": "SQL", "correta": "nao" }
+          ]
+        },
+        {
+          "enunciado": "Qual elemento HTML é usado para criar links?",
+          "pontuacao": 1,
+          "alternativas": [
+            { "texto": "<a>", "correta": "sim" },
+            { "texto": "<div>", "correta": "nao" },
+            { "texto": "<link>", "correta": "nao" },
+            { "texto": "<span>", "correta": "nao" }
+          ]
+        },
+        {
+          "enunciado": "Qual das opções é uma biblioteca JavaScript?",
+          "pontuacao": 1,
+          "alternativas": [
+            { "texto": "Django", "correta": "nao" },
+            { "texto": "Flask", "correta": "nao" },
+            { "texto": "React", "correta": "sim" },
+            { "texto": "Laravel", "correta": "nao" }
+          ]
+        }
+      ]
+    }
+  }

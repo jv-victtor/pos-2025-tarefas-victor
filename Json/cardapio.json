@@ -1,0 +1,52 @@
+    {
+        "cardapio":
+        [
+            {"item": "Prato_1",
+            "nome":"Filé Mignon ao Molho Madeira",
+            "descricao":"Filé mignon grelhado com molho madeira, acompanhado de arroz branco e batatas souté.",
+            "ingredientes": "Filé mignon, vinho madeira, cebola, manteiga, arroz, batata, sal, pimenta",
+            "preco": "68.90",
+            "calorias": "750",
+            "tempo_preparo": 35
+
+            },
+
+            {"item": "Prato_2",
+            "nome":"Risoto de Camarão",
+            "descricao":"Risoto cremoso com camarões salteados, toque de limão siciliano e parmesão.",
+            "ingredientes":"Arroz arbório, camarão, limão siciliano, parmesão, vinho branco, creme de leite",
+            "preco": "59.50",
+            "calorias": "680",
+            "tempo_preparo": 30
+
+            },
+
+            {"item": "Prato_3",
+            "nome":"Pizza Margherita",
+            "descricao":"Clássica pizza italiana com molho de tomate, muçarela de búfala e manjericão fresco.",
+            "ingredientes":"Arroz arbório, camarão, limão siciliano, parmesão, vinho branco, creme de leite",
+            "preco": "59.50",
+            "calorias": "680",
+            "tempo_preparo": 30
+            },
+
+            {"item": "Prato_4",
+            "nome":"Salada Caesar",
+            "descricao":"Salada com alface romana, frango grelhado, croutons, parmesão e molho Caesar.",
+            "ingredientes":"Alface romana, frango, croutons, parmesão, molho caesar",
+            "preco": "34.90",
+            "calorias": "760",
+            "tempo_preparo": 20
+             },
+
+             {"item": "Prato_5",
+             "nome":"Spaghetti à Carbonara",
+             "descricao":"Espaguete ao molho carbonara com pancetta crocante e queijo pecorino.",
+             "ingredientes":"Espaguete, ovos, pancetta, queijo pecorino, pimenta-do-reino",
+             "preco": "47.80",
+             "calorias": "760",
+             "tempo_preparo": 20
+              }
+
+        ]
+    }
