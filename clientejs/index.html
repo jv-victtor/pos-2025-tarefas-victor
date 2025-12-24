@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex - Cliente JS Vanilla</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Pokédex</h1>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Buscar Pokémon por nome ou ID...">
+            <button id="search-btn">Buscar</button>
+        </div>
+    </header>
+    
+    <main>
+        <section id="pokemon-list" class="pokemon-list">
+            <h2>Lista de Pokémon</h2>
+            <div class="controls">
+                <button id="prev-btn">Anterior</button>
+                <span id="page-info">Página 1</span>
+                <button id="next-btn">Próximo</button>
+            </div>
+            <div id="list-container" class="list-container"></div>
+        </section>
+        
+        <section id="pokemon-detail" class="pokemon-detail hidden">
+            <button id="back-btn" class="back-btn">← Voltar</button>
+            <div id="detail-container" class="detail-container"></div>
+        </section>
+        
+        <section id="loading" class="loading hidden">
+            <div class="spinner"></div>
+            <p>Carregando...</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Dados fornecidos pela <a href="https://pokeapi.co/" target="_blank">PokéAPI</a></p>
+    </footer>
+    
+    <script src="js/api.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
